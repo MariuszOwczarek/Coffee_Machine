@@ -24,3 +24,7 @@ class InvalidBeanOperationError(CoffeeMachineError):
 
 class NotEnoughBeansError(CoffeeMachineError):
     ...
+
+
+class InvalidRecipeError(CoffeeMachineError):
+    ...
